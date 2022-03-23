@@ -5,15 +5,15 @@
       <img class="w-1/2 h-screen" src="@/assets/imgs/bubble2.svg" alt="">
   </div>
 
-  <div class="select-none py-28 px-24 flex flex-row justify-center align-center conten-center items-center h-full w-full">
+  <div class="overflow-hidden select-none py-28 px-24 flex flex-row justify-center align-center conten-center items-center h-full w-full">
       <BluePannel />
-      <div class="flex flex-row justify-around w-full h-full">
+      <div class="py-6 flex flex-row justify-around w-full h-full">
         <div class="px-5 h-full flex flex-col justify-around">
           <AboutMe />
           <ProExperience />
         </div>
         <div class="px-5 h-full flex flex-col justify-around">
-          <Portfolio />
+          <Portfolio class="hidden 2xl:block" />
           <Skills />
         </div>
       </div>

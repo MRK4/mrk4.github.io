@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-around px-6 py-14 h-full w-fit rounded-2xl bg-transparent border-4 border-blue-600 shadow-lg text-sm">
+  <div class="flex flex-col justify-around px-6 py-14 h-fit w-fit rounded-2xl bg-transparent border-2 2xl:border-4 border-blue-600 shadow-lg text-sm">
 
     <div class="">
       <img class="h-auto w-48 rounded-full ombre" src="@/assets/imgs/avatar.png" alt="">

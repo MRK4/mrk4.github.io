@@ -5,7 +5,7 @@
             <h2 class="category circular-std-book text-2xl">Skills</h2>
         </div>
 
-        <div class="pt-8 pr-8 flex flex-row justify-between sf-pro-display-regular">
+        <div class="h-full 2xl:h-fit pt-8 2xl:pr-8 flex flex-col 2xl:flex-row justify-between 2xl:justify-between sf-pro-display-regular">
 
             <div class="">
                 <div class="category circular-std-book">Web</div>
