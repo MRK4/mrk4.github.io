@@ -8,7 +8,7 @@
         <div class="h-full 2xl:h-fit pt-8 2xl:pr-8 flex flex-col 2xl:flex-row justify-between 2xl:justify-between sf-pro-display-regular">
 
             <div class="">
-                <div class="category circular-std-book">Web</div>
+                <div class="2xl:mb-4 text-lg category circular-std-book">Web</div>
 
                 <div>HTML / CSS</div>
                 <div>Javascript</div>
@@ -20,13 +20,13 @@
             </div>
 
             <div class="">
-                <div class="category circular-std-book">Prototyping</div>
+                <div class="2xl:mb-4 text-lg category circular-std-book">Prototyping</div>
 
                 <div>Figma</div>
             </div>
 
             <div class="">
-                <div class="category circular-std-book">Tools</div>
+                <div class="2xl:mb-4 text-lg category circular-std-book">Tools</div>
 
                 <div>Git</div>
                 <div>Github / Gitlab</div>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="">
-                <div class="category circular-std-book">Languages</div>
+                <div class="2xl:mb-4 text-lg category circular-std-book">Languages</div>
 
                 <div>French (native)</div>
                 <div>English</div>

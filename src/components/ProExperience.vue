@@ -5,7 +5,7 @@
 
         <div class="text-sm max-w-md">
             <div class="py-4 flex flex-col">
-                <div class="text-gray-500">Sept 2021 - Present</div>
+                <div class="text-gray-500 dark:text-gray-400">Sept 2021 - Present</div>
                 <div class="py-2 flex flex-row">
                     <div>Web Development Apprenticeship</div>
                     <div></div>
@@ -19,10 +19,10 @@
                     <div>I have done many tasks at MDF, but my main job was to develop a WordPress Extension</div>
                     <ul class="mt-1 w-fit z-50">
                         <li>
-                            <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600" href="https://www.marketingdigitalfacile.com">www.marketingdigitalfacile.com</a>
+                            <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-200" href="https://www.marketingdigitalfacile.com">www.marketingdigitalfacile.com</a>
                         </li>
                         <li>
-                            <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600" href="https://www.la-caverne-dlp.com">www.la-caverne-dlp.com</a>
+                            <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-200" href="https://www.la-caverne-dlp.com">www.la-caverne-dlp.com</a>
                         </li>
                     </ul>
                 </div>
@@ -30,7 +30,7 @@
 
 
             <div class="py-4 flex flex-col">
-                <div class="text-gray-500">Oct 2020</div>
+                <div class="text-gray-500 dark:text-gray-400">Oct 2020</div>
                 <div class="py-2 flex flex-row">
                     <div>Web Development Internship</div>
                     <div></div>
