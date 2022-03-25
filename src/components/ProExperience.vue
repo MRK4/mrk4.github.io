@@ -13,7 +13,7 @@
                 <div class="flex flex-row items-center">
                     <div><img class="h-7 w-auto" src="@/assets/imgs/mdf.png" alt="Marketing Digital Facile Logo"></div>
                     <div class="px-2 circular-std-book company">Marketing Digital Facile</div>
-                    <div class="sf-pro-display-regular">Freelance Webmaster</div>
+                    <div class="text-xs sf-pro-display-regular">Freelance Webmaster</div>
                 </div>
                 <div class="py-2">
                     <div>I have done many tasks at MDF, but my main job was to develop a WordPress Extension</div>
@@ -29,7 +29,7 @@
             </div>
 
 
-            <div class="py-4 flex flex-col">
+            <div class="flex flex-col">
                 <div class="text-gray-500 dark:text-gray-400">Oct 2020</div>
                 <div class="py-2 flex flex-row">
                     <div>Web Development Internship</div>
@@ -38,7 +38,7 @@
                 <div class="flex flex-row items-center">
                     <div><img class="h-7 w-auto" src="@/assets/imgs/fireservice.svg" alt="Fireservice Logo"></div>
                     <div class="px-2 circular-std-book company">Fireservice</div>
-                    <div class="sf-pro-display-regular">Security guards & Formations</div>
+                    <div class="text-xs sf-pro-display-regular">Security guards & Formations</div>
                 </div>
                 <div class="py-2">
                     <div>During my internship, I was able to create the company's website with a custom WordPress theme and worked on the SEO</div>

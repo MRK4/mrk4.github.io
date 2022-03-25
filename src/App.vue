@@ -1,26 +1,27 @@
 <template>
   <!-- BACKGROUND -->
-  <div class="flex flex-row fixed bubbles">
+  <div class="flex flex-row justify-between fixed bubbles">
       <img class="w-1/2 h-screen" src="@/assets/imgs/bubble1.svg" alt="">
       <img class="w-1/2 h-screen" src="@/assets/imgs/bubble2.svg" alt="">
   </div>
 
-  <div class="transition-all duration-300 ease-in bg-white dark:bg-gray-900 dark:text-white overflow-hidden py-28 px-24 flex flex-row justify-center align-center content-center items-center h-full w-full">
+  <div class="transition-all duration-300 ease-in bg-transparent dark:bg-gray-900 dark:text-white sm:overflow-hidden py-28 px-6 sm:px-24 flex flex-col sm:flex-row sm:justify-center align-center content-center items-center sm:h-full sm:w-full">
       <BluePannel />
-      <div class="py-6 flex flex-row justify-around w-full h-full">
-        <div class="px-5 h-full flex flex-col justify-around">
+      <div class="sm:py-14 flex flex-col sm:flex-row justify-around w-full h-full">
+        <div class="px-5 h-full flex flex-col justify-between">
           <AboutMe />
-          <ProExperience />
+          <ProExperience class="py-8" />
         </div>
-        <div class="px-5 h-full flex flex-col justify-around">
-          <Portfolio class="hidden 2xl:block" />
-          <Skills />
+        <div class="px-5 h-full flex flex-col justify-between">
+          <Portfolio class="py-8 sm:py-0 sm:hidden 2xl:block" />
+          <Skills class="py-8 sm:py-0" />
         </div>
       </div>
   </div>
 
-  <div class="text-sm dark:text-white text-center absolute py-1 h-fit w-full bottom-1 opacity-25">✨ Website made with VueJS & Tailwind - Code is available <a class="underline text-blue-400 hover:text-blue-200" href="https://github.com/MRK4/mrk4.github.io">here</a> ✨</div>
+  <div class="hidden sm:block text-sm dark:text-white text-center absolute py-1 h-fit w-full bottom-1 opacity-25">✨ Website made with VueJS & Tailwind - Code is available <a class="underline text-blue-400 hover:text-blue-200" href="https://github.com/MRK4/mrk4.github.io">here</a> ✨</div>
 
+  <div class="sm:hidden py-4 text-xs dark:text-white text-center w-full">✨ Website made with VueJS & Tailwind - <a class="underline text-blue-400 hover:text-blue-200" href="https://github.com/MRK4/mrk4.github.io">Code is available here</a> ✨</div>
 
   <div class="text-sm dark:text-white text-center absolute mt-4 h-fit w-full top-1">
     <div class="flex flex-row justify-center">
@@ -28,8 +29,6 @@
       <div>Dark Mode</div>
     </div>
   </div>
-
-
 
 </template>
 
@@ -100,8 +99,8 @@ export default {
   font-family: 'SF Pro Display', Arial, sans-serif;
 }
 
-/* .category{
+.category{
   text-decoration: underline;
   text-underline-offset: 6px;
-} */
+}
 </style>

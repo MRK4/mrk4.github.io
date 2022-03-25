@@ -1,30 +1,30 @@
 <template>
-  <div class="flex flex-col justify-around px-6 py-14 h-fit w-fit rounded-2xl bg-transparent text-sm">
+  <div class="flex flex-col justify-around px-6 pb-8 sm:pb-0 sm:py-14 h-fit w-fit rounded-2xl bg-transparent text-sm">
 
     <div class="">
-      <img class="h-auto w-48 rounded-full ombre" src="@/assets/imgs/avatar.png" alt="">
+      <img class="h-auto w-48 rounded-full ombre border-2 border-blue-600 dark:border-blue-400" src="@/assets/imgs/avatar.png" alt="">
 
-      <div class="pt-8 sf-pro-display-regular text-xs text-blue-600 dark:text-blue-400">
+      <div class="pt-8 sf-pro-display-regular text-xs text-blue-600 dark:text-blue-400 space-y-4 sm:space-y-0">
         <div>
-          <a class="transition-all duration-150 ease-in flex flex-row items-center underline text-blue-400 hover:text-blue-200" href="mailto:poudree.clement@gmail.com">
+          <a class="transition-all duration-150 ease-in flex flex-row items-center underline text-blue-600 dark:text-blue-400 hover:text-blue-200" href="mailto:poudree.clement@gmail.com">
             <div><i class="fa-solid fa-envelope h-3 w-3 fill-blue-500"></i></div>
             <div class="ml-2">poudree.clement@gmail.com</div>
           </a>
         </div>
         <div>
-          <a class="transition-all duration-150 ease-in py-2 flex flex-row items-center underline text-blue-400 hover:text-blue-200" href="https://www.linkedin.com/in/clementpdr/">
+          <a class="transition-all duration-150 ease-in py-2 flex flex-row items-center underline text-blue-600 dark:text-blue-400 hover:text-blue-200" href="https://www.linkedin.com/in/clementpdr/">
             <div><i class="fa-brands fa-linkedin h-3 w-3 fill-blue-500"></i></div>
             <div class="ml-2">LinkedIn</div>
           </a>
         </div>
         <div>
-          <a class="transition-all duration-150 ease-in pb-2 flex flex-row items-center underline text-blue-400 hover:text-blue-200" href="https://github.com/MRK4">
+          <a class="transition-all duration-150 ease-in pb-2 flex flex-row items-center underline text-blue-600 dark:text-blue-400 hover:text-blue-200" href="https://github.com/MRK4">
             <div><i class="fa-brands fa-github h-3 w-3 fill-blue-500"></i></div>
             <div class="ml-2">Github</div>
           </a>
         </div>
         <div>
-          <a class="transition-all duration-150 ease-in flex flex-row items-center underline text-blue-400 hover:text-blue-200" href="https://www.google.com/maps/place/Rennes">
+          <a class="transition-all duration-150 ease-in flex flex-row items-center underline text-blue-600 dark:text-blue-400 hover:text-blue-200" href="https://www.google.com/maps/place/Rennes">
             <div><i class="fa-solid fa-location-dot h-3 w-3 fill-blue-500"></i></div>
             <div class="ml-2">Rennes, France</div>
           </a>
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="pt-8 flex flex-col text-center justify-center circular-std-book">
+    <div class="pt-8 flex flex-col text-center justify-center circular-std-book space-y-4">
 
       <div class="pb-4 category text-xl">Education</div>
 

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="heebo">
+    <div class="heebo w-full">
         <h1 class="font-bold text-4xl">
             Hi, I am Clément,
             <br>Web Developer
