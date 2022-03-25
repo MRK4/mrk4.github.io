@@ -24,9 +24,10 @@
   <div class="sm:hidden py-4 text-xs dark:text-white text-center w-full">✨ Website made with VueJS & Tailwind - <a class="underline text-blue-400 hover:text-blue-200" href="https://github.com/MRK4/mrk4.github.io">Code is available here</a> ✨</div>
 
   <div class="text-sm dark:text-white text-center absolute mt-4 h-fit w-full top-1">
-    <div class="flex flex-row justify-center">
+    <div class="flex flex-row justify-center sm:space-x-2">
+      <div class="label-light">Light Mode</div>
       <Toggler />
-      <div>Dark Mode</div>
+      <div class="label-dark hidden">Dark Mode</div>
     </div>
   </div>
 

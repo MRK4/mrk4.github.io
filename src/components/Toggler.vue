@@ -12,9 +12,13 @@ export default {
     this.$nextTick(function () {
         const toggle = document.querySelector('.toggle');
         const html = document.querySelector('html');
+        const labelLight = document.querySelector('.label-light');
+        const labelDark = document.querySelector('.label-dark');
 
         toggle.onclick = function(){
             html.classList.toggle('dark');
+            labelLight.classList.toggle('hidden');
+            labelDark.classList.toggle('hidden');
         }
     })
   }
