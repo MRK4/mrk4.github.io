@@ -1,5 +1,7 @@
 module.exports = {
-  purge: false,
+  purge: [
+    '*.html',
+  ],
   darkMode: 'class',
   content: [
     "./index.html",
