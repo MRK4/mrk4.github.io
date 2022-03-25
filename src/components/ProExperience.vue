@@ -44,7 +44,7 @@
                     <div>During my internship, I was able to create the company's website with a custom WordPress theme and worked on the SEO</div>
                     <ul class="mt-1 w-fit z-50">
                         <li>
-                            <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600" href="https://www.fireservice.fr">www.fireservice.fr</a>
+                            <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-200" href="https://www.fireservice.fr">www.fireservice.fr</a>
                         </li>
                     </ul>
                 </div>

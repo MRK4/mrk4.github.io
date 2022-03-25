@@ -5,7 +5,7 @@
       <img class="w-1/2 h-screen" src="@/assets/imgs/bubble2.svg" alt="">
   </div>
 
-  <div class="transition-all duration-300 ease-in bg-transparent dark:bg-gray-900 dark:text-white sm:overflow-hidden py-28 px-6 sm:px-24 flex flex-col sm:flex-row sm:justify-center align-center content-center items-center sm:h-full sm:w-full">
+  <div class="transition-all duration-300 ease-in bg-transparent dark:bg-gray-900 dark:text-white sm:overflow-hidden py-28 px-6 sm:px-24 flex flex-col sm:flex-row sm:justify-center items-center sm:h-full sm:w-full">
       <BluePannel />
       <div class="sm:py-14 flex flex-col sm:flex-row justify-around w-full h-full">
         <div class="px-5 h-full flex flex-col justify-between">
@@ -24,10 +24,10 @@
   <div class="sm:hidden py-4 text-xs dark:text-white text-center w-full">✨ Website made with VueJS & Tailwind - <a class="underline text-blue-400 hover:text-blue-200" href="https://github.com/MRK4/mrk4.github.io">Code is available here</a> ✨</div>
 
   <div class="text-sm dark:text-white text-center absolute mt-4 h-fit w-full top-1">
-    <div class="flex flex-row justify-center sm:space-x-2">
-      <div class="label-light">Light Mode</div>
+    <div class="flex flex-row justify-center sm:space-x-2 align-items">
+      <div class="label-light">🌞</div>
       <Toggler />
-      <div class="label-dark hidden">Dark Mode</div>
+      <div class="label-dark hidden">🌙</div>
     </div>
   </div>
 
