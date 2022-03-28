@@ -27,7 +27,7 @@
     <div class="flex flex-row justify-center sm:space-x-2 align-items">
       <div class="label-light">🌞</div>
       <Toggler />
-      <div class="label-dark hidden">🌙</div>
+      <div class="label-dark opacity-25">🌙</div>
     </div>
   </div>
 
@@ -76,12 +76,42 @@ export default {
     font-display: swap;
 }
 
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 #app {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
   color: #21243D;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
 }
 
 .bubbles{

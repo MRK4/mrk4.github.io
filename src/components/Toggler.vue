@@ -17,8 +17,8 @@ export default {
 
         toggle.onclick = function(){
             html.classList.toggle('dark');
-            labelLight.classList.toggle('hidden');
-            labelDark.classList.toggle('hidden');
+            labelLight.classList.toggle('opacity-25');
+            labelDark.classList.toggle('opacity-25');
         }
     })
   }
