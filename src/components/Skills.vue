@@ -23,6 +23,7 @@
                 <div class="2xl:mb-4 text-lg category circular-std-book">Prototyping</div>
 
                 <div>Figma</div>
+                <div>Photoshop</div>
             </div>
 
             <div class="space-y-2 sm:space-y-0">

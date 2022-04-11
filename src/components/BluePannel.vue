@@ -38,22 +38,25 @@
 
       <div class="flex flex-col justify-center">
         <!-- <img class="h-7" src="@/assets/imgs/diamond.svg" alt="Just a little fancy diamond"> -->
-        <div><i class=" fa-solid fa-graduation-cap fa-xl text-blue-600 dark:text-blue-400"></i></div>
-        <div class="py-2">Three-Year University</div>
+        <div><i class="fa-solid fa-graduation-cap fa-xl text-blue-600 dark:text-blue-400"></i></div>
+        <div class="">Three-Year University</div>
+        <div class="sf-pro-display-regular text-gray-500">My Digital School, Rennes</div>
         <div class="sf-pro-display-regular">Sep 2021 - Jul 2022</div>
       </div>
 
       <div class="py-6 flex flex-col justify-center">
         <!-- <img class="h-7" src="@/assets/imgs/diamond.svg" alt="Just a little fancy diamond"> -->
-        <div><i class=" fa-solid fa-graduation-cap fa-xl text-blue-600 dark:text-blue-400"></i></div>
-        <div class="py-2">Two-Year Technical</div>
+        <div><i class="fa-solid fa-graduation-cap fa-xl text-blue-600 dark:text-blue-400"></i></div>
+        <div class="">Two-Year Technical</div>
+        <div class="sf-pro-display-regular text-gray-500">AFTEC, Rennes</div>
         <div class="sf-pro-display-regular">Sep 2019 - Jul 2021</div>
       </div>
 
       <div class="flex flex-col justify-center">
         <!-- <img class="h-7" src="@/assets/imgs/diamond.svg" alt="Just a little fancy diamond"> -->
-        <div><i class=" fa-solid fa-graduation-cap fa-xl text-blue-600 dark:text-blue-400"></i></div>
-        <div class="py-2">High-School</div>
+        <div><i class="fa-solid fa-graduation-cap fa-xl text-blue-600 dark:text-blue-400"></i></div>
+        <div class="">High-School</div>
+        <div class="sf-pro-display-regular text-gray-500">Jean Guéhenno High School, Fougères</div>
         <div class="sf-pro-display-regular">Sep 2016 - Jul 2019</div>
       </div>
     </div>

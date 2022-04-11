@@ -16,7 +16,7 @@
                     <div class="text-xs sf-pro-display-regular">Freelance Webmaster</div>
                 </div>
                 <div class="py-2">
-                    <div>I have done many tasks at MDF, but my main job was to develop a WordPress Extension</div>
+                    <div>I have done many tasks at MDF, but my main job was to develop a WordPress extension that aims to centralize useful information for our customers</div>
                     <ul class="mt-1 w-fit z-50">
                         <li>
                             <a class="transition-all duration-150 ease-in sf-pro-display-regular text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-200" href="https://www.marketingdigitalfacile.com">www.marketingdigitalfacile.com</a>

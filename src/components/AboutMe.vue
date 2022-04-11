@@ -7,7 +7,7 @@
         </h1>
 
         <div class="pt-10 font-normal text-base max-w-lg">
-            Passionate about the web since I was a kid, I do my best to improve day by day and participate in small projects around new technologies coming !
+            Passionate about the web since I was a kid, I do my best to improve day by day and participate in projects around new technologies coming !
         </div>
 
     </div>
