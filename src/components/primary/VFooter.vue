@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex items-end text-center text-[#21243D] dark:text-white opacity-50 dark:opacity-25">
+  <footer class="flex items-end text-center text-[#21243D] dark:text-white opacity-50 dark:opacity-25 cursor-default">
     <small>&copy; Copyright 2022, Clément Poudrée</small>
   </footer>
 </template>
