@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #FF1D89;
+  }
+
+::selection {
+    color: white;
+    background: #FF1D89;
+}

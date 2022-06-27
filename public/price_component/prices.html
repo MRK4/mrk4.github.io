@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>⚡ Price Component</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            customgreen: '#2E6434',
+                            customblack: '#0B0914',
+                            customblack2: '#35353F',
+                            customgray: '#A9A9AA',
+                            customgray2: '#FFF5FA',
+                            custompink: '#FF1D89',
+                            custompurple: '#0B0641'
+                        }
+                    }
+                }
+            }
+        </script>
+        <link rel="stylesheet" href="./src/styles/prices.css">
+    </head>
+    <body class="overflow-hidden flex justify-center h-full w-full px-8 xl:px-36 2xl:px-96 py-44">
+
+
+
+        <main class="w-full">
+
+            <div class="rounded-3xl w-full h-full flex flex-row justify-between shadow-2xl">
+
+                <div class="flex flex-col justify-between h-full w-96 p-8 rounded-3xl text-customblack space-y-12">
+
+                    <div class="space-y-4">
+                        <div class="flex flex-row items-center justify-start space-x-4">
+                            <img class="w-auto h-8" src="./src/imgs/icons/skull.svg" alt="Crâne">
+                            <div class="text-3xl font-bold">Guardian</div>
+                        </div>
+
+                        <div class="space-y-8">
+                            <h3 class="text-xl text-customgray">What You’ll Get</h3>
+
+                            <ul class="space-y-6">
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/check.svg" alt="Validé">
+                                        <div class="text-lg">Edit up to 10 hours of podcast audio files.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/check.svg" alt="Validé">
+                                        <div class="text-lg">Set your own CoreLoop Page</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="flex w-full h-px border-dashed border border-customgray"></div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-3xl text-customblack">Free Forever</h3>
+                        <a class="transition-all ease-out duration-150 rounded-2xl font-semibold flex justify-center w-full py-4 border-2 border-transparent hover:border-custompink bg-customgray2 hover:bg-custompink text-custompink hover:text-white" href="./index.html">Choose</a>
+                    </div>
+
+                </div>
+
+                <div class="transform -translate-y-12 bg-custompurple flex flex-col justify-between h-full w-96 p-8 rounded-3xl text-white space-y-12 shadow-lg shadow-custompurple/50">
+
+                    <div class="space-y-4">
+                        <div class="flex flex-row items-center justify-start space-x-4">
+                            <img class="w-auto h-8" src="./src/imgs/icons/vampire.svg" alt="Crâne">
+                            <div class="text-3xl font-bold">Mage</div>
+                        </div>
+
+                        <div class="space-y-8">
+                            <h3 class="text-xl text-customgray">What You’ll Get</h3>
+
+                            <ul class="space-y-6">
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/checkwhite.svg" alt="Validé">
+                                        <div class="text-lg">Edit up to 1,000 hours of podcast audio files.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/checkwhite.svg" alt="Validé">
+                                        <div class="text-lg">Set your own landing page</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/checkwhite.svg" alt="Validé">
+                                        <div class="text-lg">24/7 support</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/checkwhite.svg" alt="Validé">
+                                        <div class="text-lg">Advanced analytics</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="flex w-full h-px border-dashed border border-customgray"></div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-3xl">$480<span class="text-lg font-normal">/month</span></h3>
+                        <a class="transition-all ease-out duration-150 rounded-2xl font-semibold flex justify-center w-full py-4 border-2 border-transparent hover:border-custompink bg-custompink hover:bg-transparent text-white hover:text-custompink shadow-lg shadow-custompink/50" href="./index.html">Choose</a>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col justify-between h-full w-96 p-8 rounded-3xl text-customblack space-y-12">
+
+                    <div class="space-y-4">
+                        <div class="flex flex-row items-center justify-start space-x-4">
+                            <img class="w-auto h-8" src="./src/imgs/icons/skull.svg" alt="Crâne">
+                            <div class="text-3xl font-bold">Phantom</div>
+                        </div>
+
+                        <div class="space-y-8">
+                            <h3 class="text-xl text-customgray">What You’ll Get</h3>
+
+                            <ul class="space-y-6">
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/check.svg" alt="Validé">
+                                        <div class="text-lg">Edit up to 4,000 hours of podcast audio files.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/check.svg" alt="Validé">
+                                        <div class="text-lg">24/7 support</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/check.svg" alt="Validé">
+                                        <div class="text-lg">Advanced analytics</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="space-x-2 flex flex-row items-start justify-start">
+                                        <img class="mt-1 w-auto h-5" src="./src/imgs/icons/check.svg" alt="Validé">
+                                        <div class="text-lg">Set sponsor deals</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="flex w-full h-px border-dashed border border-customgray"></div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-3xl text-customblack">$600<span class="text-lg font-normal">/month</span></h3>
+                        <a class="transition-all ease-out duration-150 rounded-2xl font-semibold flex justify-center w-full py-4 border-2 border-transparent hover:border-custompink bg-customgray2 hover:bg-custompink text-custompink hover:text-white" href="./index.html">Choose</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="flex absolute py-4 bottom-0">
+            <a class="text-sm hover:underline opacity-25" href="https://dribbble.com/shots/15557506-Pricing-Tables-UI-Component-Free-Download">See the original work here</a>
+        </footer>
+
+        <script src="" async defer></script>
+    </body>
+</html>
