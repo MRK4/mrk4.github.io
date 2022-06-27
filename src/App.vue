@@ -1,6 +1,6 @@
 <template>
   <div class="transition-all duration-150 ease-in bg-white dark:bg-gray-900 scroll-smooth px-14 pt-16 pb-4 flex flex-col items-center animate__animated">
-    <div class="w-full flex flex-row justify-end">
+    <div class="-mt-6 w-full flex flex-row justify-end">
       <div class="cursor-pointer p-2">
         <i class="toggle1 icon-light fa-regular fa-moon fa-lg text-blue-500 fill-current dark:text-blue-500 drop-shadow" alt="îcone de lune"></i>
         <i class="toggle2 icon-dark fa-solid fa-sun fa-lg text-[#21243D] fill-current dark:text-yellow-500 drop-shadow hidden" alt="îcone de soleil"></i>
