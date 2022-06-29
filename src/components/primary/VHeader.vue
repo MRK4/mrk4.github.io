@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-col items-center space-y-5 animate__animated animate__zoomIn animate__faster">
     <div class="h-44 w-44 rounded-full border-4 border-blue-500">
-      <img class="h-full w-full rounded-full border-4 border-transparent shadow-xl shadow-blue-500/50 dark:shadow-blue-500/25" src="@/assets/img/photo.jpg" alt="">
+      <img class="h-full w-full rounded-full border-4 border-transparent shadow-xl shadow-blue-500/50 dark:shadow-blue-500/25" src="@/assets/img/photo.jpg" alt="Image de Clément Poudrée">
     </div>
     <div class="text-center">
-      <h2 class="text-[#21243D] dark:text-white montserrat font-bold text-2xl">Clément Poudrée</h2>
-      <h1 class="text-gris dark:text-gris hind font-normal text-base">Développeur Full-Stack</h1>
+      <h1 class="text-[#21243D] dark:text-white montserrat font-bold text-2xl">Clément Poudrée</h1>
+      <h2 class="text-gris dark:text-gris hind font-normal text-base">Développeur Full-Stack</h2>
     </div>
     <div>
       <SocialMedias />
