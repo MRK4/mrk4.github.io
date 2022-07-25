@@ -26,25 +26,26 @@
         </script>
         <link rel="stylesheet" href="./src/styles/index.css">
     </head>
-    <body class="overflow-hidden flex justify-center h-full w-full px-8 xl:px-36 2xl:px-64 py-44">
+    <body class="flex justify-center h-full w-full px-8 xl:px-36 2xl:px-64 pt-10 pb-20 sm:py-44">
 
 
 
-        <main class="w-full flex flex-row justify-between gap-x-16">
+        <main class="w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-x-16 gap-y-16">
 
-            <div class="rounded-3xl flex flex-col justify-between h-full w-96 bg-customgreen text-white shadow-2xl shadow-customgreen/50">
+            <div class="rounded-3xl flex flex-col justify-between h-[40rem] w-96 bg-customgreen text-white shadow-2xl shadow-customgreen/50">
                 <div class="p-10 space-y-9">
                     <h1 class="text-3xl">Save More
                         <br><span class="font-bold">With Goodplans.</span></h1>
                     <p>Choose a plan and get onboard in minutes. Then get $100 credits for your next payment.</p>
-                    <img src="./src/imgs/icons/arrow.svg" alt="flèche pointant vers la droite">
+                    <img class="hidden sm:block" src="./src/imgs/icons/arrow.svg" alt="flèche pointant vers la droite">
+                    <img class="block sm:hidden" src="./src/imgs/icons/arrow-down.svg" alt="flèche pointant vers la droite">
                 </div>
                 <div>
                     <img class="flex -mt-48 rounded-3xl" src="./src/imgs/assets/woman.png" alt="Femme">
                 </div>
             </div>
 
-            <div class="p-10 rounded-3xl flex flex-col justify-between h-full w-96 text-customblack shadow-2xl">
+            <div class="p-10 rounded-3xl flex flex-col justify-between h-[40rem] w-96 text-customblack shadow-2xl">
 
                 <div class="flex flex-col space-y-6">
 
@@ -86,7 +87,7 @@
 
             </div>
 
-            <div class="p-10 rounded-3xl flex flex-col justify-between h-full w-96 text-customblack shadow-2xl">
+            <div class="p-10 rounded-3xl flex flex-col justify-between h-[40rem] w-96 text-customblack shadow-2xl">
 
                 <div class="flex flex-col space-y-6">
 
@@ -148,7 +149,7 @@
 
         </main>
 
-        <footer class="flex absolute py-4 bottom-0">
+        <footer class="fixed flex py-4 bottom-0">
             <a class="text-sm hover:underline opacity-25" href="https://dribbble.com/shots/15557506-Pricing-Tables-UI-Component-Free-Download">See the original work here</a>
         </footer>
 

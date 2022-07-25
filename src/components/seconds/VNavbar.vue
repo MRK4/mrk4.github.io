@@ -21,7 +21,18 @@
           <!-- PROJECTS -->
 
           <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
-            <div class="max-w-6xl flex flex-wrap justify-center items-center space-x-0 sm:space-x-6">
+            <div class="max-w-6xl flex flex-wrap justify-center items-center gap-6">
+
+                <!-- React Social Network -->
+                <div class="my-4 sm:max-w-md sm:max-h-72">
+                  <a class="flex flex-col space-y-3 decoration-2 decoration-blue-500 hover:underline active:underline focus:underline" href="https://dashing-tanuki-a08066.netlify.app/" target="_blank">
+                    <img class="w-full h-auto rounded-xl shadow-xl border-2 border-gray-300 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-500" src="@/assets/img/component_prices.png" alt="Capture d'écran représentant une page de composants de liste de prix">
+                    <div class="flex flex-row justify-center items-end space-x-2">
+                      <div class="montserrat font-bold text-xl text-[#21243D] dark:text-white">React Social Network UI</div>
+                      <div class="hind font-normal text-base text-gris dark:text-gris">2022</div>
+                    </div>
+                  </a>
+                </div>
 
                 <!-- Price Components -->
                 <div class="my-4 sm:max-w-md sm:max-h-72">
